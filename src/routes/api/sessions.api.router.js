@@ -23,6 +23,7 @@ sessionsApiRouter.post(
       last_name: request.user.last_name,
       age: request.user.age,
       email: request.user.email,
+      role: request.user.role,
     };
 
     request.session.login = true;
@@ -53,6 +54,7 @@ sessionsApiRouter.post(
       last_name: request.user.last_name,
       age: request.user.age,
       email: request.user.email,
+      role: request.user.role,
     };
 
     request.session.login = true;
